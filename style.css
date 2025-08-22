@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #fdf8f4; /* пастельний ніжний фон */
+  color: #444;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.greeting h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #d17b88;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.greeting p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.image-box {
+  text-align: center;
+  padding: 30px;
+  background: #fcefee;
+}
+
+.birthday-img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.footer-nav {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.btn {
+  background: #d17b88;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #a85c6d;
+}
